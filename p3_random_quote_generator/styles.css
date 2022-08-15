@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.quotes{
+    text-align: center;
+}
