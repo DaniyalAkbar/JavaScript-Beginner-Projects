@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Project 4</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="message">
+            <p>
+                <h3 style="text-align: center; font-weight: bold;">Pass the Message</h3>
+            </p>
+            <p style="border-bottom: 2px solid #d3d3d3;"></p>
+            <p>
+                <label for="message-input">Enter a message</label>
+                <br>
+                <button style="border-radius: 5px;"><i class="fa-solid fa-envelope"></i></i></button>
+                <input type="text" id="message-input">
+            </p>
+            <p>
+                <button onclick="getMessage()">Submit</button>
+            </p>
+            <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
